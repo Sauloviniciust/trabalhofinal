@@ -1,0 +1,9 @@
+.body{
+    
+    background-image: url(../images/imagemFundoHome.jpg);
+ }
+ .ul{
+
+    display: flex;
+    flex-direction: row; /* predeterminado */
+}
