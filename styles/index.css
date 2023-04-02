@@ -1,12 +1,19 @@
 .body{
-    color: rgb(236, 235, 235);
-    background-color: rgb(32, 34, 34);
-    opacity: 90%;
-    background-image: url(../images/imagemFundoHome.jpg);
+    color: rgb(231, 226, 226);
+
+    background-image: url(../images/background\ home.png);
     background-size: cover;
 }
 .ul{
-
+    color: rgba(255, 15, 15, 0.062);
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: center;
     display: flex;
     flex-direction: row; /* predeterminado */
+}
+
+.p{    
+    background-color: rgba(0, 0, 0, 0.534);
+   
+
 }
