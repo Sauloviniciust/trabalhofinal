@@ -1,19 +1,33 @@
-.body{
+.body {
     color: rgb(231, 226, 226);
 
     background-image: url(../images/background\ home.png);
     background-size: cover;
 }
-.ul{
+
+.ul {
     color: rgba(255, 15, 15, 0.062);
     background-color: rgba(0, 0, 0, 0.534);
-    text-align: center;
     display: flex;
-    flex-direction: row; /* predeterminado */
+    flex-direction: row;
+    /* predeterminado */
+    
+    
 }
 
-.p{    
+.p {
     background-color: rgba(0, 0, 0, 0.534);
-   
+    position: absolute;
+    width: 865px;
+    height: 708px;
+    left: 42px;
+    top: 217px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
 
 }
