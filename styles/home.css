@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("images/fundo-ww.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: #000000;
+  opacity: 0.9;
+  padding: 0 48px;
+}
+.logo {
+  height: 172px;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 24px;
+}
+
+nav img {
+  height: 80px;
+}
+
+main {
+  flex: 1;
+  padding: 48px;
+}
+
+main > p {
+  color: #a7a1a1;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 865px;
+  font-size: 40px;
+  line-height: 48px;
+  padding: 16px;
+}
+
+.icons {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px;
+  gap: 12px;
+  opacity: 0.8;
+}
+
+.icons > img {
+  width: 28px;
+  height: 28px;
+}
