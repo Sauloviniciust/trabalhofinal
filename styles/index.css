@@ -60,6 +60,7 @@ main>p {
   line-height: 48px;
   padding: 16px;
 }
+
 .contato {
   color: #a7a1a1;
   background-color: rgba(0, 0, 0, 0.541);
@@ -73,10 +74,9 @@ main>p {
 
 .icons {
   position: absolute;
-width: 1440px;
-height: 64px;
-left: 0px;
-top: 960px;
+  width: 100%;
+  left: 0px;
+  top: 960px;
   backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
@@ -84,5 +84,12 @@ top: 960px;
   padding: 16px;
   gap: 12px;
 
-
+  
+  /*  position: absolute;
+    width: 100%;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;*/
 }
