@@ -60,6 +60,16 @@ main>p {
   line-height: 48px;
   padding: 16px;
 }
+.contato {
+  color: #a7a1a1;
+  background-color: rgba(0, 0, 0, 0.541);
+  box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
+  max-width: 865px;
+  font-size: 30px;
+  line-height: 48px;
+  padding: 16px;
+}
+
 
 .icons {
   backdrop-filter: blur(5px);
