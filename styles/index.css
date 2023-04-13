@@ -41,7 +41,7 @@ header {
 
 .ul>li:hover {
  
-  transform: translate(0, 10px)
+  transform: scale(1.1)
 }
 
 nav img {
