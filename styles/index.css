@@ -129,13 +129,6 @@ main {
 .btn:hover::after {
   margin-top: -8px;
 }
-
-.formulario{
-
-}
-.formulario:hover{
-  
-}
 .caixa{
   border: 2px solid rgb(125, 133, 38);
   background-color: rgba(0, 0, 0, 0.623);
