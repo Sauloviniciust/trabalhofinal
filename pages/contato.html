@@ -46,34 +46,38 @@
 
 
       <form action="https://formspree.io/f/xzbqjkjp" method="POST">
-        <div class="formulario">
-          <label for="nameInput">Nome</label>
+        <div>
+          <label>Nome</label>
           <br>
-          <input type="text" name="name" id="nameInput" placeholder="Seu nome" title="Preencha aqui seu nome"class="caixa">
+          <input type="text"  placeholder="Seu nome" title="Preencha aqui seu nome"
+            class="caixa"style="width: 500px; height: 25px">
         </div>
-
-        <div class="formulario">
-          <label for="emailInput">E-mail</label>
+        <br>
+        <div>
+          <label>E-mail</label>
           <br>
-          <input type="email" name="email" id="emailInput" placeholder="Seu e-mail" title="Preencha aqui seu e-mail"class="caixa">
+          <input type="email" placeholder="Seu e-mail" title="Preencha aqui seu e-mail"
+            class="caixa" style="width: 500px; height: 25px">
         </div>
-
-        <div class="formulario">
-          <label for="phoneInput">Telefone ou celular</label>
+        <br>
+        <div>
+          <label>Telefone ou celular</label>
           <br>
-          <input type="text" name="phone" id="phoneInput" placeholder="(DDD) + número"
-            title="Preencha aqui seu número de telefone ou celular"class="caixa">
+          <input type="number" placeholder="(DDD) + número"
+            title="Preencha aqui seu número de telefone ou celular" class="caixa"style="width: 500px; height: 25px">
         </div>
-
-        <div class="formulario">
-          <label for="messageArea">Sua mensagem</label>
-          <br>
-          <textarea  name="message" id="messageArea" rows="10" title="Digite aqui a mensagem que deseja enviar"
-            placeholder="Digite sua mensagem..." class="caixa"></textarea>
-        </div>
-        <input type="submit" value="Enviar" class="submit-button" id="submit">
-        <button type="reset">Limpar formulario</button>
-      </form>
+        <br>
+       <div> 
+        
+        
+        <label>Digite sua mensagem</label>
+        <br>
+        <textarea   rows="10" placeholder="Digite sua mensagem..." title="Preencha aqui sua mensagem"class="caixa" style="width: 865px; height: 128px;"></textarea>
+        <input type="submit" value="Enviar" class="button" id="submit">
+        <button class="button" type="reset">Limpar formulario</button>
+      </div>
+      <br>
+    </form>
 
 
     </section>

@@ -89,12 +89,15 @@ main {
   padding: 16px;
 }
 
+.contato h1, label{
+  color: #aca038;
+}
+
 .icons {
   color: white;
   position: absolute;
   width: 100%;
   left: 0px;
-  /*top: 960px;*/
   bottom: auto;
   backdrop-filter: blur(5px);
   display: flex;
@@ -130,22 +133,23 @@ main {
   margin-top: -8px;
 }
 .caixa{
-  border: 2px solid rgb(125, 133, 38);
+  border: 3px solid #aca038;
   background-color: rgba(0, 0, 0, 0.623);
-color: #a7a1a1;
+  color: #a1a7a4;
 
 
 }
 .caixa:hover{
-  border: 2px solid rgb(13, 44, 129);
+  border: 3px solid rgb(19, 99, 33);
 
 }
-.caixa:active{
-  border: 2px solid rgb(129, 13, 13);
-
-}
-
-.caixa:focus{
-  border: 2px solid rgb(129, 13, 13);
-
+.button {
+  background-color: #aca038;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
