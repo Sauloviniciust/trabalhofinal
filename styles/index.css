@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+
+  
 }
 
 body {
@@ -11,7 +13,6 @@ body {
   background-image: url(/trabalhofinal/images/background\ home.png);
   background-size: cover;
   background-attachment: fixed;
-
   scroll-behavior: smooth;
 
 }
@@ -35,22 +36,6 @@ header li :hover {
 header li :active {
 
   box-shadow: 0px 5px 0px 0px #11da2c7c;
-
-}
-
-
-
-
-/* header li:first-child :hover {
-
-box-shadow: 5px 0px 0px 0px#cdda1123;
-
-} */
-
-
-header li :first-child :not()  {
-
-
 
 }
 
@@ -210,6 +195,14 @@ main {
  @media only screen and (max-width: 768px) {
   .ul {
       flex-direction: column;
+  }
+  body {
+
+    background-image: url(/trabalhofinal/images/wppr.png);
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+  
   }
 }
 
