@@ -26,7 +26,33 @@ header {
   scroll-behavior: smooth;
 }
 
+header li :hover {
 
+  box-shadow: 0px 5px 0px 0px #cdda117c;
+
+}
+
+header li :active {
+
+  box-shadow: 0px 5px 0px 0px #11da2c7c;
+
+}
+
+
+
+
+/* header li:first-child :hover {
+
+box-shadow: 5px 0px 0px 0px#cdda1123;
+
+} */
+
+
+header li :first-child :not()  {
+
+
+
+}
 
 .logo {
   height: 172px;
@@ -56,27 +82,28 @@ main {
 }
 
 
-.personagem {
+.box {
   color: #a7a1a1;
   background-color: rgba(0, 0, 0, 0.541);
   box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
   max-width: 865px;
   font-size: 30px;
   line-height: 48px;
-  padding: 16px;
+  padding: 20px;
 
   scroll-behavior: smooth;
 }
 
-.personagem h1{
+
+
+.box h1{
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
   color: #aca038;
 }
-.personagem img{
+.box img{
   width: 100%
-  
 }
 
 .contato {
@@ -143,13 +170,57 @@ main {
   border: 3px solid rgb(19, 99, 33);
 
 }
+
 .button {
   background-color: #aca038;
   border: none;
   color: rgb(0, 0, 0);
+  /* box-shadow:  */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
+
+.button:hover{
+  background-color: rgb(19, 99, 33);
+  border: none;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 0px 0px #ffffff15;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:active{
+  background-color: rgb(29, 29, 29);
+  border: none;
+  color: rgb(19, 99, 33);
+  box-shadow: 5px 5px 0px 0px #ffffff15;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ @media only screen and (max-width: 768px) {
+  .ul {
+      flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-menu .navigation ul {
+      flex-direction: column;
+      align-items: center;
+      font-size: 28px;
+  }
+
+  .main-menu .navigation ul > li {
+      margin-right: 0;
+  }
+} 
