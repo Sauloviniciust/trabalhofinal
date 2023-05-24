@@ -17,7 +17,8 @@ body {
 
 }
 
-header {
+header ul{
+  list-style: none;
   display: flex;
   align-items: center;
   backdrop-filter: blur(5px);
@@ -44,15 +45,24 @@ header li :active {
 }
 
 
-.ul {
+/* menu {
   color: #00000000;
   margin-left: auto;
   display: flex;
   flex-direction: row;
   gap: 10px;
+} */
+
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 1.5rem;
 }
 
-.ul>li:hover {
+.menu>li:hover {
  
   transform: scale(1.1)
 }
@@ -192,8 +202,11 @@ main {
   font-size: 16px;
 }
 
- @media only screen and (max-width: 768px) {
-  .ul {
+#btn-mobile{
+  display: none;
+}
+ @media only screen and (max-width: 575.98px) {
+  .menu {
       flex-direction: column;
   }
   body {
@@ -204,16 +217,33 @@ main {
     scroll-behavior: smooth;
   
   }
+
+  #btn-mobile {
+    display: block;
+    
+  }
+  .menu{
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 768px) {
-  .main-menu .navigation ul {
-      flex-direction: column;
-      align-items: center;
-      font-size: 28px;
+@media only screen and (max-width: 767.98px) {
+
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+  
   }
 
-  .main-menu .navigation ul > li {
-      margin-right: 0;
+  #btn-mobile {
+    display: none;
+    
   }
-} 
+  .menu{
+ flex-direction: column;
+    align-items: center;
+    transform: scale(.8);
+  }
+}
+
