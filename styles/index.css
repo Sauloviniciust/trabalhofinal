@@ -188,6 +188,28 @@ label {
 }
 
 @media only screen and (max-width: 575.98px) {
+
+  .loja{
+
+    max-width: 575.98px;
+  }
+
+  .loja img{
+    margin-left: 0;
+    transform: scale(.8);
+  }
+
+  .contato {
+    width: 575.98px;
+    color: #a7a1a1;
+    background-color: rgba(0, 0, 0, 0.541);
+    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
+    max-width: 865px;
+    font-size: 30px;
+    line-height: 48px;
+    padding: 16px;
+  }
+  
   .text-contato {
     max-width: 575.98px;
     border: 3px solid #aca038;
@@ -196,6 +218,8 @@ label {
     
   }
   .icons {
+    
+    max-width: 575.98px;
     color: rgb(207, 199, 199);
     position: absolute;
     width: 100%;
