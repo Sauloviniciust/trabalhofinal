@@ -46,8 +46,18 @@ nav img {
   padding: 48px;
 } */
 .text-contato {
+  font-size: 25px;
+  border: 3px solid #aca038;
+  height: 128px;
+  background-color: rgba(0, 0, 0, 0.541);
+  
+  color: #a1a7a4;
   width: 865px;
   height: 128px;
+}
+
+.text-contato:hover {
+  border: 3px solid rgb(19, 99, 33);
 }
 
 .box {
@@ -70,13 +80,6 @@ nav img {
 
 .box img {
   width: 100%
-}
-
-.text-contato {
-  border: 3px solid #aca038;
-  height: 128px;
-  background-color: rgba(0, 0, 0, 0.541);
-  
 }
 
 .contato {
@@ -144,10 +147,6 @@ label {
   border: 3px solid rgb(19, 99, 33);
 }
 
-.text-contato:hover {
-  border: 3px solid rgb(19, 99, 33);
-}
-
 .button {
   background-color: #aca038;
   border: none;
@@ -198,26 +197,29 @@ label {
     margin-left: 0;
     transform: scale(.8);
   }
-
+  .box p{
+    font-size: 15px;
+    line-height: 30px;
+      }
+    
   .contato {
     width: 575.98px;
     color: #a7a1a1;
     background-color: rgba(0, 0, 0, 0.541);
     box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
     max-width: 865px;
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 20px;
+    line-height: 30px;
     padding: 16px;
   }
+
+
   
   .text-contato {
-    max-width: 575.98px;
-    border: 3px solid #aca038;
-    height: 128px;
-    background-color: rgba(0, 0, 0, 0.541);
-    
-  }
-  .icons {
+    width: 500px;
+   }
+ 
+   .icons {
     
     max-width: 575.98px;
     color: rgb(207, 199, 199);
@@ -275,6 +277,17 @@ label {
 }
 
 @media only screen and (max-width: 767.98px) {
+
+  body {
+    max-width: 767.98px;
+    background-image: url(/trabalhofinal/images/wppr.png);
+    background-position-y: -180px;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+  }
+
   header ul {
     list-style: none;
     flex-direction: column;
@@ -283,16 +296,16 @@ label {
     background-color: rgba(0, 0, 0, 0.459);
   }
 
-  .box {
-    color: #a7a1a1;
-    background-color: rgba(0, 0, 0, 0.541);
-    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
-    max-width: 865px;
-    font-size: 25px;
-    line-height: 40px;
-    padding: 20px;
-    scroll-behavior: smooth;
+  .box p{
+font-size: 20px;
+line-height: 30px;
   }
+
+
+  .box img{
+    transform: scale(.8);
+  }
+
 
   nav img {
     height: 100px;
@@ -302,3 +315,38 @@ label {
     height: 150px;
   }
 }
+
+@media only screen and (max-width: 991.98px) { 
+
+
+  .box {
+    color: #a7a1a1;
+    background-color: rgba(0, 0, 0, 0.541);
+    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
+    max-width: 750px;
+    font-size: 25px;
+    line-height: 35px;
+    padding: 20px;
+    scroll-behavior: smooth;
+  } 
+
+  nav img {
+    height: 50px;
+  }
+
+  .logo {
+    height: 150px;
+  }
+ 
+}
+
+@media only screen and (max-width: 1199.98px) { 
+  
+  nav img {
+    height: 95px;
+  }
+
+  .logo {
+    height: 120px;
+  }
+ }
