@@ -4,69 +4,47 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-
-
 }
 
 body {
-
   background-image: url(/trabalhofinal/images/background\ home.png);
   background-size: cover;
   background-attachment: fixed;
   scroll-behavior: smooth;
-
 }
 
 header ul {
   list-style: none;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   backdrop-filter: blur(5px);
+  /* background-color: rgba(0, 0, 0, 0.884); */
   opacity: 0.9;
   padding: 0 48px;
-
   scroll-behavior: smooth;
 }
 
 header li :hover {
-
-  box-shadow: 0px 5px 0px 0px #cdda117c;
-
+  transform: scale(1.1);
+  box-shadow: 0px 5px 0px 0px #eeff00ad;
 }
 
 header li :active {
-
   box-shadow: 0px 5px 0px 0px #11da2c7c;
-
 }
 
 .logo {
-  height: 172px;
-}
-
-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 1.5rem;
-}
-
-.menu>li:hover {
-
-  transform: scale(1.1)
+  height: 200px;
 }
 
 nav img {
-  height: 100px;
+  height: 150px;
 }
 
-main {
+/* main {
   flex: 1;
   padding: 48px;
-}
-
+} */
 
 .box {
   color: #a7a1a1;
@@ -76,11 +54,8 @@ main {
   font-size: 30px;
   line-height: 48px;
   padding: 20px;
-
   scroll-behavior: smooth;
 }
-
-
 
 .box h1 {
   margin-bottom: 20px;
@@ -120,7 +95,6 @@ label {
   justify-content: center;
   padding: 16px;
   gap: 12px;
-
 }
 
 .btn {
@@ -152,13 +126,10 @@ label {
   border: 3px solid #aca038;
   background-color: rgba(0, 0, 0, 0.623);
   color: #a1a7a4;
-
-
 }
 
 .caixa:hover {
   border: 3px solid rgb(19, 99, 33);
-
 }
 
 .button {
@@ -200,9 +171,22 @@ label {
   font-size: 16px;
 }
 
-
 @media only screen and (max-width: 575.98px) {
 
+  .icons {
+    color: rgb(207, 199, 199);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    font-size: 15px;
+    line-height: 25px;
+    bottom: auto;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+  }
   .logo-mobile {
     display: block;
   }
@@ -221,15 +205,49 @@ label {
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
-
   }
-.menu-mobile{
-  flex-direction: column;
-  align-items: center;
 
+  .box {
+    color: #a7a1a1;
+    background-color: rgba(0, 0, 0, 0.541);
+    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
+    max-width: 865px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px;
+    scroll-behavior: smooth;
+  }
+  
+
+  .menu-mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
+@media only screen and (max-width: 767.98px) {
+  header ul {
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+  .box {
+    color: #a7a1a1;
+    background-color: rgba(0, 0, 0, 0.541);
+    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
+    max-width: 865px;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 20px;
+    scroll-behavior: smooth;
+  }
+  nav img {
+    height: 100px;
+  }
 
+  .logo {
+    height: 150px;
+  }
 }
-
-@media only screen and (max-width: 767.98px) {}
