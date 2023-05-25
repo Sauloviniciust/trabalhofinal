@@ -5,7 +5,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 
-  
+
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 }
 
-header ul{
+header ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -44,15 +44,6 @@ header li :active {
   height: 172px;
 }
 
-
-/* menu {
-  color: #00000000;
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-} */
-
 menu {
   display: flex;
   align-items: center;
@@ -63,7 +54,7 @@ menu {
 }
 
 .menu>li:hover {
- 
+
   transform: scale(1.1)
 }
 
@@ -91,13 +82,14 @@ main {
 
 
 
-.box h1{
+.box h1 {
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
   color: #aca038;
 }
-.box img{
+
+.box img {
   width: 100%
 }
 
@@ -111,7 +103,8 @@ main {
   padding: 16px;
 }
 
-.contato h1, label{
+.contato h1,
+label {
   color: #aca038;
 }
 
@@ -154,14 +147,16 @@ main {
 .btn:hover::after {
   margin-top: -8px;
 }
-.caixa{
+
+.caixa {
   border: 3px solid #aca038;
   background-color: rgba(0, 0, 0, 0.623);
   color: #a1a7a4;
 
 
 }
-.caixa:hover{
+
+.caixa:hover {
   border: 3px solid rgb(19, 99, 33);
 
 }
@@ -170,7 +165,6 @@ main {
   background-color: #aca038;
   border: none;
   color: rgb(0, 0, 0);
-  /* box-shadow:  */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -178,7 +172,7 @@ main {
   font-size: 16px;
 }
 
-.button:hover{
+.button:hover {
   background-color: rgb(19, 99, 33);
   border: none;
   color: rgb(255, 255, 255);
@@ -190,7 +184,11 @@ main {
   font-size: 16px;
 }
 
-.button:active{
+.logo-mobile {
+  display: none;
+}
+
+.button:active {
   background-color: rgb(29, 29, 29);
   border: none;
   color: rgb(19, 99, 33);
@@ -202,48 +200,36 @@ main {
   font-size: 16px;
 }
 
-#btn-mobile{
-  display: none;
-}
- @media only screen and (max-width: 575.98px) {
-  .menu {
-      flex-direction: column;
+
+@media only screen and (max-width: 575.98px) {
+
+  .logo-mobile {
+    display: block;
   }
+
+  .bb {
+    margin-left: 25%;
+  }
+
+  .menu {
+    display: none;
+  }
+
   body {
 
     background-image: url(/trabalhofinal/images/wppr.png);
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
-  
-  }
 
-  #btn-mobile {
-    display: block;
-    
   }
-  .menu{
-    display: none;
-  }
+.menu-mobile{
+  flex-direction: column;
+  align-items: center;
+
 }
 
-@media only screen and (max-width: 767.98px) {
 
-  body {
-    background-size: cover;
-    background-attachment: fixed;
-    scroll-behavior: smooth;
-  
-  }
-
-  #btn-mobile {
-    display: none;
-    
-  }
-  .menu{
- flex-direction: column;
-    align-items: center;
-    transform: scale(.8);
-  }
 }
 
+@media only screen and (max-width: 767.98px) {}
