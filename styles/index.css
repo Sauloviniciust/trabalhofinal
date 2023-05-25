@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(/trabalhofinal/images/background\ home.png);
+  background-image: url(../images/background\ home.png);
   background-size: cover;
   background-attachment: fixed;
   scroll-behavior: smooth;
