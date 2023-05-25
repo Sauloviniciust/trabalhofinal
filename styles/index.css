@@ -45,6 +45,10 @@ nav img {
   flex: 1;
   padding: 48px;
 } */
+.text-contato {
+  width: 865px;
+  height: 128px;
+}
 
 .box {
   color: #a7a1a1;
@@ -68,7 +72,15 @@ nav img {
   width: 100%
 }
 
+.text-contato {
+  border: 3px solid #aca038;
+  height: 128px;
+  background-color: rgba(0, 0, 0, 0.541);
+  
+}
+
 .contato {
+  width: 865px;
   color: #a7a1a1;
   background-color: rgba(0, 0, 0, 0.541);
   box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
@@ -132,6 +144,10 @@ label {
   border: 3px solid rgb(19, 99, 33);
 }
 
+.text-contato:hover {
+  border: 3px solid rgb(19, 99, 33);
+}
+
 .button {
   background-color: #aca038;
   border: none;
@@ -172,7 +188,13 @@ label {
 }
 
 @media only screen and (max-width: 575.98px) {
-
+  .text-contato {
+    max-width: 575.98px;
+    border: 3px solid #aca038;
+    height: 128px;
+    background-color: rgba(0, 0, 0, 0.541);
+    
+  }
   .icons {
     color: rgb(207, 199, 199);
     position: absolute;
@@ -183,10 +205,11 @@ label {
     bottom: auto;
     backdrop-filter: blur(5px);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     padding: 10px;
   }
+
   .logo-mobile {
     display: block;
   }
@@ -200,24 +223,26 @@ label {
   }
 
   body {
-
+    max-width: 575.98px;
     background-image: url(/trabalhofinal/images/wppr.png);
+    background-size: auto;
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
   }
 
   .box {
+
     color: #a7a1a1;
     background-color: rgba(0, 0, 0, 0.541);
     box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
-    max-width: 865px;
+    max-width: 575.98px;
     font-size: 15px;
     line-height: 25px;
     padding: 20px;
     scroll-behavior: smooth;
   }
-  
+
 
   .menu-mobile {
     flex-direction: column;
@@ -233,6 +258,7 @@ label {
     backdrop-filter: blur(0px);
     background-color: rgba(0, 0, 0, 0.459);
   }
+
   .box {
     color: #a7a1a1;
     background-color: rgba(0, 0, 0, 0.541);
@@ -243,6 +269,7 @@ label {
     padding: 20px;
     scroll-behavior: smooth;
   }
+
   nav img {
     height: 100px;
   }
