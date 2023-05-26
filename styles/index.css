@@ -40,20 +40,7 @@ nav img {
   height: 150px;
 }
 
-.text-contato {
-  font-size: 25px;
-  border: 3px solid #aca038;
-  height: 128px;
-  background-color: rgba(0, 0, 0, 0.541);
-  
-  color: #a1a7a4;
-  width: 865px;
-  height: 128px;
-}
-
-.text-contato:hover {
-  border: 3px solid rgb(19, 99, 33);
-}
+/* css conteudo principal */
 
 .box {
   color: #a7a1a1;
@@ -77,7 +64,9 @@ nav img {
   width: 100%
 }
 
-.contato {
+/* css aba contato e loja */
+
+.caixa {
   width: 865px;
   color: #a7a1a1;
   background-color: rgba(0, 0, 0, 0.541);
@@ -88,24 +77,61 @@ nav img {
   padding: 16px;
 }
 
-.contato h1,
+.caixa h1,
 label {
   color: #aca038;
 }
 
-.icons {
-  color: white;
-  position: absolute;
-  width: 100%;
-  left: 0px;
-  bottom: auto;
-  backdrop-filter: blur(5px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  gap: 12px;
+/* botao enviar e limpar */
+
+.botao {
+  background-color: #aca038;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 }
+
+.botao:hover {
+  background-color: rgb(19, 99, 33);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 0px 0px #ffffff15;
+
+}
+
+
+.botao:active {
+  background-color: rgba(29, 29, 29, 0.377);
+  color: rgb(19, 99, 33);
+  box-shadow: 5px 5px 0px 0px #aca038;
+  border: #aca038;
+
+}
+
+/* caixas de contato */
+
+.texto {
+  font-size: 25px;
+  border: 3px solid #aca038;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: #a1a7a4;
+  width: 865px;
+  height: 150px; 
+}
+
+ .texto:hover {
+  border: 3px solid rgb(19, 99, 33);
+}
+
+/* caixa contato */
+.caixa {
+  background-color: rgba(0, 0, 0, 0.623);
+  color: #a1a7a4;
+} 
+
+/* botão voltar ao topo */
 
 .btn {
   display: flex;
@@ -132,54 +158,26 @@ label {
   margin-top: -8px;
 }
 
-.caixa {
-  border: 3px solid #aca038;
-  background-color: rgba(0, 0, 0, 0.623);
-  color: #a1a7a4;
+/* css footer */
+
+.footer {
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: auto;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.caixa:hover {
-  border: 3px solid rgb(19, 99, 33);
-}
-
-.button {
-  background-color: #aca038;
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.button:hover {
-  background-color: rgb(19, 99, 33);
-  border: none;
-  color: rgb(255, 255, 255);
-  box-shadow: 5px 5px 0px 0px #ffffff15;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+/* mobile */
 
 .logo-mobile {
   display: none;
 }
 
-.button:active {
-  background-color: rgb(29, 29, 29);
-  border: none;
-  color: rgb(19, 99, 33);
-  box-shadow: 5px 5px 0px 0px #ffffff15;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 
 @media only screen and (max-width: 575.98px) {
 
@@ -188,11 +186,11 @@ label {
     line-height: 30px;
       }
      
-  .text-contato {
+  .texto {
     width: 500px;
    }
  
-   .icons {
+   .footer {
     
     max-width: 575.98px;
     color: rgb(207, 199, 199);
@@ -205,7 +203,7 @@ label {
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: fleboxx-start;
     padding: 10px;
   }
 
@@ -322,4 +320,4 @@ line-height: 30px;
   .logo {
     height: 120px;
   }
- }
+}
