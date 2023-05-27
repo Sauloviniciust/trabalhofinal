@@ -17,10 +17,11 @@ header ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px);
   opacity: 0.9;
   padding: 0 48px;
   scroll-behavior: smooth;
+  transition: var("scroll-behavior: auto");
 }
 
 header li :hover {
@@ -38,15 +39,16 @@ header li :active {
 
 nav img {
   height: 150px;
+  
 }
 
 /* css conteudo principal */
 
 .box {
-  color: #a7a1a1;
+  color: #c0bcbc;
   background-color: rgba(0, 0, 0, 0.541);
   box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
-  max-width: 865px;
+  max-width: 60%;
   font-size: 30px;
   line-height: 48px;
   padding: 20px;
@@ -61,20 +63,21 @@ nav img {
 }
 
 .box img {
-  width: 100%
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 /* css aba contato e loja */
 
 .caixa {
-  width: 865px;
-  color: #a7a1a1;
+  color: #aca038;
   background-color: rgba(0, 0, 0, 0.541);
   box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
-  max-width: 865px;
+  max-width: 60%;
   font-size: 30px;
   line-height: 48px;
-  padding: 16px;
+  padding: 20px;
+
 }
 
 .caixa h1,
@@ -96,7 +99,7 @@ label {
 
 .botao:hover {
   background-color: rgb(19, 99, 33);
-  color: rgb(255, 255, 255);
+  color: #c0bcbc;
   box-shadow: 5px 5px 0px 0px #ffffff15;
 
 }
@@ -113,14 +116,13 @@ label {
 /* caixas de contato */
 
 .texto {
-  font-size: 25px;
   border: 3px solid #aca038;
   background-color: rgba(0, 0, 0, 0.541);
-  color: #a1a7a4;
+  color: #c0bcbc;
   width: 865px;
   height: 150px; 
+  
 }
-
  .texto:hover {
   border: 3px solid rgb(19, 99, 33);
 }
@@ -128,7 +130,7 @@ label {
 /* caixa contato */
 .caixa {
   background-color: rgba(0, 0, 0, 0.623);
-  color: #a1a7a4;
+  color: #c0bcbc;
 } 
 
 /* botão voltar ao topo */
@@ -148,9 +150,9 @@ label {
 
 .btn::after {
   content: "↑";
-  font-size: 32px;
+  font-size: 50px;
   font-weight: bold;
-  color: aliceblue;
+  color: rgb(161, 172, 17);
   transition-duration: 250ms;
 }
 
@@ -161,11 +163,13 @@ label {
 /* css footer */
 
 .footer {
+  position: relative;
+  bottom:0;
   width: 100%;
+  height: 100px;
   color: white;
-  position: absolute;
-  bottom: auto;
-  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.527);
+  backdrop-filter: blur(3px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,6 +182,29 @@ label {
   display: none;
 }
 
+h1 {
+	font-size: 3.4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1.2;
+}
 
 @media only screen and (max-width: 575.98px) {
 
@@ -203,7 +230,6 @@ label {
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
-    justify-content: fleboxx-start;
     padding: 10px;
   }
 
@@ -230,7 +256,7 @@ label {
 
   .box {
 
-    color: #a7a1a1;
+    color: #c0bcbc;
     background-color: rgba(0, 0, 0, 0.541);
     box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
     max-width: 575.98px;
@@ -291,7 +317,7 @@ line-height: 30px;
 
 
   .box {
-    color: #a7a1a1;
+    color: #c0bcbc;
     background-color: rgba(0, 0, 0, 0.541);
     box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
     max-width: 750px;
