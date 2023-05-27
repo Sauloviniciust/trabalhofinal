@@ -335,7 +335,31 @@ line-height: 30px;
     height: 150px;
   }
  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+  
+  h4 {
+    font-size: .9rem;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    line-height: 1;
+  }
 }
+
 
 @media only screen and (max-width: 1199.98px) { 
   
@@ -346,4 +370,6 @@ line-height: 30px;
   .logo {
     height: 120px;
   }
+
+  
 }
