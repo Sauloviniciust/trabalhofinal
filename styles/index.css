@@ -39,7 +39,7 @@ header li :active {
 
 nav img {
   height: 150px;
-  
+
 }
 
 /* css conteudo principal */
@@ -119,19 +119,18 @@ label {
   border: 3px solid #aca038;
   background-color: rgba(0, 0, 0, 0.541);
   color: #c0bcbc;
-  width: 865px;
-  height: 150px; 
-  
+  width: 80%
+
 }
- .texto:hover {
+
+.texto:hover {
   border: 3px solid rgb(19, 99, 33);
 }
 
-/* caixa contato */
 .caixa {
   background-color: rgba(0, 0, 0, 0.623);
-  color: #c0bcbc;
-} 
+  color: #bcc0bc;
+}
 
 /* botão voltar ao topo */
 
@@ -162,9 +161,9 @@ label {
 
 /* css footer */
 
-.footer {
+.cabecalho {
   position: relative;
-  bottom:0;
+  bottom: 0;
   width: 100%;
   height: 100px;
   color: white;
@@ -183,19 +182,19 @@ label {
 }
 
 h1 {
-	font-size: 3.4rem;
+  font-size: 3.4rem;
 }
 
 h2 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 h3 {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 h4 {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 h1,
@@ -203,33 +202,36 @@ h2,
 h3,
 h4,
 h5 {
-	line-height: 1.2;
+  line-height: 1.2;
 }
 
 @media only screen and (max-width: 575.98px) {
 
-   .box p{
+ 
+  .box p {
     font-size: 15px;
     line-height: 30px;
-      }
-     
-  .texto {
-    width: 500px;
-   }
- 
-   .footer {
-    
+  }
+
+.caixa{
+  max-width: 575.98px;
+  color: rgb(207, 199, 199);
+  left: 0px;
+  font-size: 15px;
+  line-height: 25px;
+  bottom: auto;
+  padding: 10px;
+}
+
+  .cabecalho {
     max-width: 575.98px;
     color: rgb(207, 199, 199);
     position: absolute;
-    width: 100%;
     left: 0px;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 15px;
     bottom: auto;
-    backdrop-filter: blur(5px);
-    display: flex;
-    align-items: center;
+  
     padding: 10px;
   }
 
@@ -255,15 +257,10 @@ h5 {
   }
 
   .box {
-
-    color: #c0bcbc;
-    background-color: rgba(0, 0, 0, 0.541);
-    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
     max-width: 575.98px;
     font-size: 15px;
     line-height: 25px;
     padding: 20px;
-    scroll-behavior: smooth;
   }
 
 
@@ -271,9 +268,22 @@ h5 {
     flex-direction: column;
     align-items: center;
   }
+
+ 
 }
 
 @media only screen and (max-width: 767.98px) {
+
+  .footer-icon {
+  transform: scale(.8);
+  }
+
+  .cabecalho {
+    padding: 10px;
+    text-align: center;
+
+
+  }
 
   body {
     max-width: 767.98px;
@@ -282,7 +292,6 @@ h5 {
     background-size: auto;
     background-size: cover;
     background-attachment: fixed;
-    scroll-behavior: smooth;
   }
 
   header ul {
@@ -293,13 +302,13 @@ h5 {
     background-color: rgba(0, 0, 0, 0.459);
   }
 
-  .box p{
-font-size: 20px;
-line-height: 30px;
+  .box p {
+    font-size: 20px;
+    line-height: 30px;
   }
 
 
-  .box img{
+  .box img {
     transform: scale(.8);
   }
 
@@ -313,19 +322,17 @@ line-height: 30px;
   }
 }
 
-@media only screen and (max-width: 991.98px) { 
+@media only screen and (max-width: 991.98px) {
 
 
   .box {
-    color: #c0bcbc;
-    background-color: rgba(0, 0, 0, 0.541);
-    box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
-    max-width: 750px;
+    max-width: 991.98px;
     font-size: 25px;
-    line-height: 35px;
-    padding: 20px;
-    scroll-behavior: smooth;
-  } 
+  }
+
+  .cabecalho {
+    text-align: center;
+  }
 
   nav img {
     height: 50px;
@@ -334,23 +341,23 @@ line-height: 30px;
   .logo {
     height: 150px;
   }
- 
+
   h1 {
     font-size: 3rem;
   }
-  
+
   h2 {
     font-size: 1.6rem;
   }
-  
+
   h3 {
     font-size: 1rem;
   }
-  
+
   h4 {
     font-size: .9rem;
   }
-  
+
   h1,
   h2,
   h3,
@@ -361,8 +368,8 @@ line-height: 30px;
 }
 
 
-@media only screen and (max-width: 1199.98px) { 
-  
+@media only screen and (max-width: 1199.98px) {
+
   nav img {
     height: 95px;
   }
@@ -371,5 +378,5 @@ line-height: 30px;
     height: 120px;
   }
 
-  
+
 }
