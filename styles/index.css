@@ -55,16 +55,21 @@ nav img {
   scroll-behavior: smooth;
 }
 
-.box h1 {
+.box h2 {
+  font-size: 2.5rem;
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
+}
+
+.box ul {
+  list-style: none;
   color: #aca038;
 }
 
 .box img {
-  width: 80%;
-  margin-bottom: 50px;
+  width: 50%;
+  margin-bottom: 10px;
 }
 
 /* css aba contato e loja */
@@ -155,6 +160,7 @@ label {
 }
 
 .btn:hover::after {
+  color: #bcc0bc;
   margin-top: -8px;
 }
 
@@ -302,7 +308,6 @@ h5 {
     line-height: 30px;
   }
 
-
   .box img {
     transform: scale(.8);
   }
@@ -335,6 +340,27 @@ h5 {
     line-height: 25px;
     bottom: auto;
     padding: 10px;
+  }
+  .caixa h1,
+  label {
+    
+    font-size: 2rem;
+  }
+ 
+
+  .loja h2{
+font-size: 1.8rem;
+  }
+
+  .button{
+    color: #aca038;
+  }
+ .btn-success{
+  font-size: .7rem;
+  width: 130px;
+  height: 30px;
+  background-color: rgb(19, 99, 33);
+  color: #000000;
   }
 
   .cabecalho h2 {
