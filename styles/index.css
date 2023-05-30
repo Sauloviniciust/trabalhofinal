@@ -120,7 +120,6 @@ label {
   background-color: rgba(0, 0, 0, 0.541);
   color: #c0bcbc;
   width: 80%
-
 }
 
 .texto:hover {
@@ -205,121 +204,22 @@ h5 {
   line-height: 1.2;
 }
 
-@media only screen and (max-width: 575.98px) {
-
- 
-  .box p {
-    font-size: 15px;
-    line-height: 30px;
-  }
-
-.caixa{
-  max-width: 575.98px;
-  color: rgb(207, 199, 199);
-  left: 0px;
-  font-size: 15px;
-  line-height: 25px;
-  bottom: auto;
-  padding: 10px;
-}
-
-  .cabecalho {
-    max-width: 575.98px;
-    color: rgb(207, 199, 199);
-    position: absolute;
-    left: 0px;
-    font-size: 15px;
-    line-height: 15px;
-    bottom: auto;
-  
-    padding: 10px;
-  }
-
-  .logo-mobile {
-    display: block;
-  }
-
-  .bb {
-    margin-left: 25%;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  body {
-    max-width: 575.98px;
-    background-image: url(/trabalhofinal/images/wppr.png);
-    background-size: auto;
-    background-size: cover;
-    background-attachment: fixed;
-    scroll-behavior: smooth;
-  }
-
-  .box {
-    max-width: 575.98px;
-    font-size: 15px;
-    line-height: 25px;
-    padding: 20px;
-  }
 
 
-  .menu-mobile {
-    flex-direction: column;
-    align-items: center;
-  }
-
- 
-}
-
-@media only screen and (max-width: 767.98px) {
-
-  .footer-icon {
-  transform: scale(.8);
-  }
-
-  .cabecalho {
-    padding: 10px;
-    text-align: center;
 
 
-  }
 
-  body {
-    max-width: 767.98px;
-    background-image: url(/trabalhofinal/images/wppr.png);
-    background-position-y: -180px;
-    background-size: auto;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  header ul {
-    list-style: none;
-    flex-direction: column;
-    align-items: center;
-    backdrop-filter: blur(0px);
-    background-color: rgba(0, 0, 0, 0.459);
-  }
-
-  .box p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-
-  .box img {
-    transform: scale(.8);
-  }
-
+@media only screen and (max-width: 1199.98px) {
 
   nav img {
-    height: 100px;
+    height: 95px;
   }
 
   .logo {
-    height: 150px;
+    height: 120px;
   }
+
+
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -367,16 +267,126 @@ h5 {
   }
 }
 
+@media only screen and (max-width: 767.98px) {
 
-@media only screen and (max-width: 1199.98px) {
+  .footer-icon {
+    transform: scale(.8);
+  }
+
+  .cabecalho {
+    padding: 10px;
+    text-align: center;
+
+
+  }
+
+  body {
+    max-width: 767.98px;
+    background-image: url(/trabalhofinal/images/wppr.png);
+    background-position-y: -180px;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  header ul {
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0.459);
+  }
+
+  .box p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+
+  .box img {
+    transform: scale(.8);
+  }
+
 
   nav img {
-    height: 95px;
+    height: 100px;
   }
 
   .logo {
-    height: 120px;
+    height: 150px;
+  }
+}
+
+
+@media only screen and (max-width: 575.98px) {
+
+
+
+  .box p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .caixa {
+    max-width: 575.98px;
+    color: rgb(207, 199, 199);
+    left: 0px;
+    font-size: 15px;
+    line-height: 25px;
+    bottom: auto;
+    padding: 10px;
+  }
+
+  .cabecalho h2 {
+    font-size: 1rem;
+  }
+  .footer-icon {
+    transform: scale(.5);
+  }
+  
+  .cabecalho {
+   
+    text-align: center;
+
+
+  }
+  .logo-mobile {
+    display: block;
+  }
+
+  .bb {
+    margin-left: 25%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  body {
+    max-width: 575.98px;
+    background-image: url(/trabalhofinal/images/wppr.png);
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+  }
+
+  .box {
+    max-width: 575.98px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 20px;
   }
 
 
+  .menu-mobile {
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
 }
