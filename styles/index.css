@@ -217,12 +217,17 @@ h5 {
 
 @media only screen and (max-width: 1199.98px) {
 
+    .box {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
   nav img {
-    height: 95px;
+    height: 75px;
   }
 
   .logo {
-    height: 120px;
+    height: 100px;
   }
 
 
@@ -233,7 +238,8 @@ h5 {
 
   .box {
     max-width: 991.98px;
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 1.2;
   }
 
   .cabecalho {
@@ -241,11 +247,11 @@ h5 {
   }
 
   nav img {
-    height: 50px;
+    height: 70px;
   }
 
   .logo {
-    height: 150px;
+    height: 100px;
   }
 
   h1 {
