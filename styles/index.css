@@ -79,6 +79,15 @@ nav img {
 
 /* css aba contato e loja */
 
+.selecao:hover{
+  background-color: #00000077;
+  color: #0a6b2f;
+}
+
+.selecao{
+  background-color: #000000;
+  color: #aca038;
+}
 .caixa {
   color: #aca038;
   background-color: rgba(0, 0, 0, 0.541);
@@ -461,5 +470,9 @@ font-size: 1.8rem;
 
   .footer-icon {
     transform: scale(.7);
+  }
+
+  .botao {
+transform: scale(.7);
   }
 }
