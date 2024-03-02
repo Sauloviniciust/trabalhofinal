@@ -95,7 +95,7 @@ margin-right: auto;
 margin-right: auto; 
   color: #c0bcbc;
   background-color: rgba(0, 0, 0, 0.541);
-  box-shadow: 8px 8px 8px 0px rgba(251, 255, 0, 0.418);
+  box-shadow: 8px 8px 8px 8px rgba(251, 255, 0, 0.418);
   max-width: 60%;
   font-size: 30px;
   line-height: 48px;
