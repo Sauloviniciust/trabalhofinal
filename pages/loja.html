@@ -1,157 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Contato</title>
+    <link rel="icon" href="./../images/Breaking-Bad-Symbol.png" />
+    <link rel="stylesheet" href="./../styles/index.css" />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <title>Contato</title>
-  <link rel="icon" href="/trabalhofinal/images/Breaking-Bad-Symbol.png">
-  <link rel="stylesheet" href="/trabalhofinal/styles/index.css" />
-</head>
+  <body>
+    <header class="main-menu">
+      <div class="wrapper-menu">
+        <nav class="logo-mobile">
+          <a class="menu-logo" href="./../pages/menu.html">
+            <img
+              class=""
+              src="./../images/menu icon.png"
+              alt="Logo-BreakingBad"
+            />
+          </a>
 
-<body>
-  <header class="main-menu">
-    <div class="wrapper-menu">
-    <nav class="logo-mobile">
- 
-      <a class="menu-logo" href="/trabalhofinal/pages/menu.html">
-         <img class="" src="/trabalhofinal/images/menu icon.png" alt="Logo-BreakingBad" />
-       </a>
- 
-      <a class="bb" href="/trabalhofinal/index.html">
-         <img src="/trabalhofinal/images/logo.png" alt="Logo-BreakingBad" />
-       </a>
-  
-   </nav>
-    <nav class="menu">
+          <a class="bb" href="./../index.html">
+            <img src="./../images/logo.png" alt="Logo-BreakingBad" />
+          </a>
+        </nav>
+        <nav class="menu">
+          <ul>
+            <li class="dstk">
+              <a href="./../index.html">
+                <img
+                  class="logo"
+                  src="./../images/logo.png"
+                  alt="Logo-BreakingBad"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="./../pages/personagens.html">
+                <img src="./../images/personagens.png" alt="personagens" />
+              </a>
+            </li>
+            <li>
+              <a href="./../pages/curiosidades.html">
+                <img src="./../images/curiosidades.png" alt="curiosidades" />
+              </a>
+            </li>
 
-      <ul>
-        <li class="dstk"> <a href="/trabalhofinal/index.html">
-            <img class="logo" src="/trabalhofinal/images/logo.png" alt="Logo-BreakingBad" />
-          </a></li>
-        <li> <a href="/trabalhofinal/pages/personagens.html">
-            <img src="/trabalhofinal/images/personagens.png" alt="personagens" />
-          </a></li>
-        <li> <a href="/trabalhofinal/pages/curiosidades.html">
-            <img src="/trabalhofinal/images/curiosidades.png" alt="curiosidades" />
-          </a></li>
+            <li>
+              <a href="./../pages/loja.html">
+                <img src="./../images/loja.png" alt="loja" />
+              </a>
+            </li>
 
-        <li> <a href="/trabalhofinal/pages/loja.html"> <img src="/trabalhofinal/images/loja.png" alt="loja" /> </a></li>
+            <li>
+              <a href="./../pages/contato.html">
+                <img src="./../images/contato.png" alt="contato" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="box">
+      <!-- <h2>Produtos</h2> -->
+      <ul class="loja">
+        <li>
+          <h2>Camiseta preta (Tamanho único) | <i> 'Walter White'</i></h2>
+          <h2>R$ 99,99</h2>
+          <img
+            src="https://static3.tcdn.com.br/img/img_prod/460977/camiseta_longline_fear_is_the_real_enemy_so_get_out_to_the_real_world_walter_white_breaking_bad_pret_79069_1_d8c360caca1a5c2d75358ed2660171e0.jpg"
+            alt="Camiseta preta 'Walter White'"
+          />
+          <select class="selecao" name="tamanho" id="">
+            <option selected="true" disabled="true">Tamanho</option>
+            <option value="P">Pequeno</option>
+            <option value="M">Medio</option>
+            <option value="G">Grande</option>
+          </select>
+          <select class="selecao" name="quantidade" id="">
+            <option selected="true" disabled="true">Quantidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
 
-        <li><a href="/trabalhofinal/pages/contato.html">
-            <img src="/trabalhofinal/images/contato.png" alt="contato" />
-          </a></li>
+          <button type="button" class="btn-success">
+            Adicionar ao carrinho
+          </button>
+        </li>
+        <br />
+        <li>
+          <h2>Camiseta Branca (Tamanho único) | <i>'Heisenberg'</i></h2>
+          <h2>R$ 89,99</h2>
+          <img
+            src="https://d2r9epyceweg5n.cloudfront.net/stores/002/028/322/products/3021-7557661b777ab89ff416750898891856-640-0.webp"
+            alt="Camiseta Branca 'Heisenberg'"
+          />
+          <select class="selecao" name="tamanho" id="">
+            <option selected="true" disabled="true">Tamanho</option>
+            <option value="P">Pequeno</option>
+            <option value="M">Medio</option>
+            <option value="G">Grande</option>
+          </select>
+          <select class="selecao" name="quantidade" id="">
+            <option selected="true" disabled="true">Quantidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <button type="button" class="btn-success">
+            Adicionar ao carrinho
+          </button>
+        </li>
+        <br />
+        <li>
+          <h2>R$ 129,00</h2>
+          <h2>Caneca Beaker 400ml |<i> 'Respect the Chemistry'</i></h2>
+          <img
+            src="https://i.ebayimg.com/images/g/QNIAAOSweeBhktFN/s-l500.jpg"
+            alt="Caneca Beaker 'Respect the Chemistry'"
+          />
+          <select class="selecao" name="tamanho" id="">
+            <option selected="true" disabled="true">Cor</option>
+            <option value="R">Rosa</option>
+            <option value="V">Verde</option>
+            <option value="A">Amarelo</option>
+          </select>
+          <select class="selecao" name="quantidade" id="">
+            <option selected="true" disabled="true">Quantidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <button type="button" class="btn-success">
+            Adicionar ao carrinho
+          </button>
+        </li>
+        <br />
+        <li>
+          <h2>Pen Drive 64GB |<i>'Breaking Bad'</i></h2>
+          <h2>R$ 114,99</h2>
+          <img
+            src="https://m.media-amazon.com/images/I/719g-N-9azL._AC_SY450_.jpg"
+            alt="Pen Drive 'BreakingBad"
+          />
+
+          <select class="selecao" name="tamanho" id="">
+            <option selected="true" disabled="true">Cor</option>
+            <option value="P">Preto</option>
+            <option value="B">Branco</option>
+            <option value="R">Rosa</option>
+          </select>
+          <select class="selecao" name="quantidade" id="">
+            <option selected="true" disabled="true">Quantidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <button type="button" class="btn-success">
+            Adicionar ao Carrinho
+          </button>
+        </li>
       </ul>
-    </nav>
-  </div>
-  </header>
-<br>
-  <main class="box">
+    </main>
 
-    <a href="#" class="btn"></a>
-    <!-- <h2>Produtos</h2> -->
-    <ul class="loja">
-      <li>
-        <h2>Camiseta preta (Tamanho único) | <i> 'Walter White'</i></h2>
-        <h2>R$ 99,99</h2>
-        <img src="https://static3.tcdn.com.br/img/img_prod/460977/camiseta_longline_fear_is_the_real_enemy_so_get_out_to_the_real_world_walter_white_breaking_bad_pret_79069_1_d8c360caca1a5c2d75358ed2660171e0.jpg" 
-        alt="Camiseta preta 'Walter White'" />
-        <select class="selecao" name="tamanho" id="">
-          <option selected="true" disabled="true">Tamanho</option>
-          <option value="P">Pequeno</option>
-          <option value="M">Medio</option>
-          <option value="G">Grande</option>
-      </select>
-      <select class="selecao" name="quantidade" id="">
-        <option selected="true" disabled="true">Quantidade</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select>
-
-        <button type="button" class=" btn-success">Adicionar ao carrinho</button>
-      </li>
-      <br>
-      <li>
-        <h2>Camiseta Branca (Tamanho único) | <i>'Heisenberg'</i></h2>
-        <h2>R$ 89,99</h2>
-        <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/028/322/products/3021-7557661b777ab89ff416750898891856-640-0.webp" 
-        alt="Camiseta Branca 'Heisenberg'" />
-        <select class="selecao" name="tamanho" id="">
-          <option selected="true" disabled="true">Tamanho</option>
-          <option value="P">Pequeno</option>
-          <option value="M">Medio</option>
-          <option value="G">Grande</option>
-      </select>
-      <select class="selecao" name="quantidade" id="">
-        <option selected="true" disabled="true">Quantidade</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select>
-        <button type="button" class=" btn-success">Adicionar ao carrinho</button>
-      </li>
-      <br>
-      <li>
-        <h2>R$ 129,00</h2>
-        <h2>Caneca Beaker 400ml |<i> 'Respect the Chemistry'</i></h2>
-        <img src="https://i.ebayimg.com/images/g/QNIAAOSweeBhktFN/s-l500.jpg" alt="Caneca Beaker 'Respect the Chemistry'" />
-        <select class="selecao" name="tamanho" id="">
-          <option selected="true" disabled="true">Cor</option>
-          <option value="R">Rosa</option>
-          <option value="V">Verde</option>
-          <option value="A">Amarelo</option>
-      </select>
-      <select class="selecao" name="quantidade" id="">
-        <option selected="true" disabled="true">Quantidade</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select>
-        <button type="button" class=" btn-success">Adicionar ao carrinho</button>
-      </li>
-      <br>
-      <li>
-        <h2>Pen Drive 64GB |<i>'Breaking Bad'</i></h2>
-        <h2>R$ 114,99</h2>
-        <img src="https://m.media-amazon.com/images/I/719g-N-9azL._AC_SY450_.jpg" alt="Pen Drive 'BreakingBad" />
-
-        <select class="selecao" name="tamanho" id="">
-          <option selected="true" disabled="true">Cor</option>
-          <option value="P">Preto</option>
-          <option value="B">Branco</option>
-          <option value="R">Rosa</option>
-      </select>
-      <select class="selecao" name="quantidade" id="">
-        <option selected="true" disabled="true">Quantidade</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select>
-        <button type="button" class=" btn-success">Adicionar ao Carrinho</button>
-      </li>
-    </ul>
-  </main>
-
-  <footer class="cabecalho">
-    <h2>Loja Virtual | BreakingBad | CoderHouse © 2023</h2>
-    <a class="footer-icon" href="https://www.netflix.com/br-en/title/70143836?source=35" target="blank">
-      <img src="/trabalhofinal/images/Netflix.svg" alt="icone da netflix" />
-    </a>
-    <a class="footer-icon" href="https://twitter.com/BreakingBad" target="blank">
-      <img src="/trabalhofinal/images/Twitter.svg" alt="icone do twitter" />
-    </a>
-    <a class="footer-icon"  href="https://www.instagram.com/breakingbad/" target="blank">
-      <img src="/trabalhofinal/images/Instagram.svg" alt="icone do Instagram" style="margin-left: 10px ;"  />
-    </a>
-  </footer>
-</body>
-
+    <footer class="cabecalho">
+      <h2>Loja Virtual | BreakingBad | CoderHouse © 2023</h2>
+      <a
+        class="footer-icon"
+        href="https://www.netflix.com/br-en/title/70143836?source=35"
+        target="blank"
+      >
+        <img src="./../images/Netflix.svg" alt="icone da netflix" />
+      </a>
+      <a
+        class="footer-icon"
+        href="https://twitter.com/BreakingBad"
+        target="blank"
+      >
+        <img src="./../images/Twitter.svg" alt="icone do twitter" />
+      </a>
+      <a
+        class="footer-icon"
+        href="https://www.instagram.com/breakingbad/"
+        target="blank"
+      >
+        <img
+          src="./../images/Instagram.svg"
+          alt="icone do Instagram"
+          style="margin-left: 10px"
+        />
+      </a>
+    </footer>
+  </body>
 </html>
